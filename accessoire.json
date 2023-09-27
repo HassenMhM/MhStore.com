@@ -1,0 +1,74 @@
+[
+    {
+        "name":"T800 Ultra",
+        "imgPath":"/images/ac01.jpeg",
+        "price":"2 800 Da",
+        "brand":"Unknown"
+    },
+    {
+        "name":"Airpod Pro",
+        "imgPath":"/images/ac02.webp",
+        "price":"22 000 Da",
+        "brand":"Apple"
+    },
+    {
+        "name":"AirDots 2",
+        "imgPath":"/images/ac03.jpg",
+        "price":"2 500 da",
+        "brand":"Xioami"
+    },
+    {
+        "name":"Smart Band 7",
+        "imgPath":"/images/ac04.webp",
+        "price":"9 500 Da",
+        "brand":"Xioami"
+    },
+    {
+        "name":"Airpods 3",
+        "imgPath":"/images/ac05.webp",
+        "price":"3 500 Da",
+        "brand":"Unknown"
+    },
+    {
+        "name":"Mi Casque",
+        "imgPath":"/images/ac06.jpg",
+        "price":"13 500 Da",
+        "brand":"Xioami"
+    },
+    {
+        "name":"Android Gamepad",
+        "imgPath":"/images/ac07.jpg",
+        "price":"3 000 Da",
+        "brand":"Unknown"
+    },
+    {
+        "name":"Mi Speaker",
+        "imgPath":"/images/ac08.jpg",
+        "price":"7 000 DA",
+        "brand":"Xioami"
+    },
+    {
+        "name":"Clé USB 128 Go",
+        "imgPath":"/images/ac09.webp",
+        "price":"2 000 Da",
+        "brand":"Adata"
+    },
+    {
+        "name":"ThinkPlus XT83",
+        "imgPath":"/images/ac10.webp",
+        "price":"3 900 Da",
+        "brand":"Lenovo"
+    },
+    {
+        "name":"Watch 3",
+        "imgPath":"/images/ac11.png",
+        "price":"55 000 Da",
+        "brand":"Huawei"
+    },
+    {
+        "name":"BoomBox 2",
+        "imgPath":"/images/ac12.jpg",
+        "price":"99 000 Da",
+        "brand":"JBL"
+    }
+]

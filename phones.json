@@ -1,0 +1,146 @@
+[ 
+    {
+        "name":"iPhone 12",
+        "imgPath":"/images/phone01.png",
+        "price":"92 000",
+        "brand":"Apple",
+        "proccessor":"A14 Bionic",
+        "rom":"Memory 256Go",
+        "ram":"Ram 256Go"
+    },
+    {
+        "name":"iPhone 13 Pro Max",
+        "imgPath":"/images/phone02.png",
+        "price":"192 000 Da",
+        "brand":"Apple",
+        "proccessor":"A15 Bionic",
+        "rom":"Memory 128Go",
+        "ram":"Ram 6Go"
+    },
+    {
+        "name":"Galaxy S21",
+        "imgPath":"/images/phone03.png",
+        "price":"99 000 Da",
+        "brand":"Samsung",
+        "proccessor":"Exynos 2100",
+        "rom":"Memory 128Go",
+        "ram":"Ram 12Go"
+    },
+    {
+        "name":"Redmi Note 9",
+        "imgPath":"/images/phone04.png",
+        "price":"36 000 Da",
+        "brand":"Xioami",
+        "proccessor":"Helio G85",
+        "rom":"Memory 128Go",
+        "ram":"Ram 6Go"
+    },
+    {
+        "name":"Huawei P40 Pro",
+        "imgPath":"/images/phone05.png",
+        "price":"90 000 Da",
+        "brand":"Huawei",
+        "proccessor":"Kirin 990",
+        "rom":"Memory 128Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"Galaxy A50",
+        "imgPath":"/images/phone06.png",
+        "price":"40 000 Da",
+        "brand":"Samsung",
+        "proccessor":"Exynos 9610",
+        "rom":"Memory 64Go",
+        "ram":"Ram 4Go"
+    },
+    {
+        "name":"Galaxy S23 Ultra",
+        "imgPath":"/images/phone07.png",
+        "price":"187 000 Da",
+        "brand":"Samsung",
+        "proccessor":"Snapdragon 8 Gen2",
+        "rom":"Memory 256Go",
+        "ram":"Ram 12Go"
+    },
+    {
+        "name":"Realme 5 Pro",
+        "imgPath":"/images/phone08.png",
+        "price":"40 000 DA",
+        "brand":"Realme",
+        "proccessor":"Snapdragon 712",
+        "rom":"Memory 128Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"Reno 5",
+        "imgPath":"/images/phone09.png",
+        "price":"58 000 Da",
+        "brand":"Oppo",
+        "proccessor":"Snapdragon 720G",
+        "rom":"Memory 128Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"Galaxy A70",
+        "imgPath":"/images/phone10.png",
+        "price":"60 900 Da",
+        "brand":"Samsung",
+        "proccessor":"Snapdragon 675",
+        "rom":"Memory 128Go",
+        "ram":"Ram 6Go"
+    },
+    {
+        "name":"Mate 30 Pro",
+        "imgPath":"/images/phone11.png",
+        "price":"156 000 Da",
+        "brand":"Huawei",
+        "proccessor":"Kirin 990",
+        "rom":"Memory 128Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"Realme X2 Pro",
+        "imgPath":"/images/phone12.png",
+        "price":"46 000 Da",
+        "brand":"Realme",
+        "proccessor":"Snapdragon 730G",
+        "rom":"Memory 128Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"OnePlus 11R",
+        "imgPath":"/images/phone13.png",
+        "price":"119 000 Da",
+        "brand":"OnePlus",
+        "proccessor":"Snapdragon 8+ Gen1",
+        "rom":"Memory 256Go",
+        "ram":"Ram 16Go"
+    },
+    {
+        "name":"iPhone 14",
+        "imgPath":"/images/phone14.png",
+        "price":"164 000 Da",
+        "brand":"Apple",
+        "proccessor":"A15 Bionic",
+        "rom":"Memory 128Go",
+        "ram":"Ram 6Go"
+    },
+    {
+        "name":"OnePlus 10 Pro",
+        "imgPath":"/images/phone15.png",
+        "price":"109 000 Da",
+        "brand":"OnePlus",
+        "proccessor":"Snapdragon 8+ Gen1",
+        "rom":"Memory 256Go",
+        "ram":"Ram 8Go"
+    },
+    {
+        "name":"Galaxy Note 20",
+        "imgPath":"/images/phone16.png",
+        "price":"135 000 Da",
+        "brand":"Samsung",
+        "proccessor":"Exynos 990",
+        "rom":"Memory 512Go",
+        "ram":"Ram 12Go"
+    }
+]
