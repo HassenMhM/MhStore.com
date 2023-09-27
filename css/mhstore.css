@@ -78,8 +78,8 @@ a{
 }
 @media (max-width: 767px){
     .main-title {
-        padding: 10px 10px ;
-        font-size: 20px;
+        padding: 8px 8px ;
+        font-size: 13px;
     }
 }
 .main-title:hover {
@@ -249,6 +249,12 @@ a{
     border-radius: 50%;
     cursor: pointer;
 }
+@media(max-width: 767px){
+    .list p span {
+        padding: 8px 13px;
+        font-size: 15px;
+    }
+}
 .list p span.active {
     color: var(--selection-color);
     border-color: var(--selection-color);
@@ -309,8 +315,9 @@ a{
 @media (max-width: 767px){
     .header .container ul li {
         padding: 0 2px;
-        font-size: 5px;
-        margin-top: 5px;
+        font-size: 8px;
+        padding-left: 5px;
+        margin-top: 15px;
         letter-spacing: 1px;
     }
 }
@@ -331,6 +338,7 @@ a{
 @media (max-width: 767px){
     .header .container .logo img {
         height: 20px;
+        display: none;
         width: 18px;
     }
 }
@@ -347,6 +355,11 @@ a{
 }
 .header .container ul li:first-child {
     margin-right: 20px;
+}
+@media(max-width: 767px){
+    .header .container ul li:first-child {
+        margin-right: 40px;
+    }
 }
 @media (min-width: 1650px){
     .header .container ul li:first-child i {
@@ -391,8 +404,8 @@ a{
     }
 @media (max-width: 767px){
     .header .container ul li:first-child:hover i .nav-bar {
-        top: 50px;
-        padding-right: 5%;
+        top: 40px;
+        width: 240px;
     }
     .header .container ul li:first-child:hover i .nav-bar:hover {
         border-color: var(--selection-color);
@@ -403,10 +416,10 @@ a{
         font-size: 15px;
     }
     .header .container ul li:first-child:hover i .nav-bar h1 {
-        font-size: 10px;
+        font-size: 8px;
     }
     .header .container ul li:first-child:hover i .nav-bar h1 p {
-        font-size: 8px;
+        font-size: 6px;
         padding-right: 20px;
         padding-left: 10px;
     }
@@ -561,6 +574,7 @@ a{
 @media (max-width: 767px) {
     .search .container i {
         margin-left: -20px;
+        font-size: 10px;
     }
 }
 .search .container:hover i {
@@ -577,6 +591,7 @@ a{
     .search .container input {
         width: 70%;
         margin-right: 40px;
+        height: 10px;
     }
 }
 .search .container input::placeholder {
@@ -584,7 +599,8 @@ a{
 }
 @media (max-width: 767px) {
     .search .container input::placeholder {
-        font-size: 15px;
+        font-size: 12px;
+        padding-left: 10px;
     }
 } 
 /* end search */
@@ -601,7 +617,7 @@ a{
 }
 @media (max-width: 767px){
     .brands .container{
-        grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill,minmax(150px, 1fr));
         gap: 10px;
         padding-bottom: 50px;
     }
@@ -630,10 +646,8 @@ a{
 @media (max-width: 767px){
     .brands .container .box img {
         height: 70px;
-        width: 50px;
+        width: 70px;
         padding: 0;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
 .brands .container .box a {
@@ -838,6 +852,11 @@ a{
     font-size: 30px;
     font-weight: 400;
 }
+@media (max-width: 767px) {
+    .inscription .container h2 {
+        font-size: 20px;
+    }
+}
 .inscription .container .user-box {
     display: flex;
     justify-content: center;
@@ -858,6 +877,14 @@ a{
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.658);
 }
+@media (max-width: 767px) {
+    .inscription .container .user-box input::placeholder {
+        font-size: 15px;
+    }
+    .inscription .container .user-box input {
+        margin-top: 10px;
+    }
+}
 .inscription .container .user-box a {
     margin-top: 40px;
     margin-bottom: 30px;
@@ -869,6 +896,15 @@ a{
     border-radius: 20px;
     box-shadow: var(--main-box);
     letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+    .inscription .container .user-box a {
+        font-size: 10px;
+        margin-top: 25px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
 }
 .inscription .container .user-box a:hover {
     background-color: var(--selection-color);
@@ -900,6 +936,15 @@ a{
     color: white;
     border-bottom: 1px solid var(--selection-color);
 }
+@media(max-width: 767px){
+    .inscription .container .sign-up {
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    .inscription .container .sign-up a {
+        font-size: 11px;
+    }
+}
 .inscription .container .sign-up:hover a {
     color: var(--selection-color);
 }
@@ -925,6 +970,8 @@ a{
     .about .container {
         flex-direction: column;
         width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
         border-radius: 40px;
     }
 }
@@ -939,7 +986,7 @@ a{
 }    
 @media (max-width: 767px){
     .about .container .me img {
-        width: 80%;
+        width: 50%;
     }
 }
 .about .container .me {
@@ -961,6 +1008,11 @@ a{
     padding-bottom: 10px;
     border-bottom: 4px solid var(--selection-color);
     font-weight: 400;
+}
+@media (max-width: 767px){
+    .about .container .me h2 {
+        font-size: 15px;
+    }
 }
 .about .container i {
     color: white;
@@ -990,6 +1042,14 @@ a{
     font-size: 50px;
     color: white;
 }
+@media (max-width: 767px){
+    .about .container .about-us h3 {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 30px;
+        margin-right: 0;
+    }
+}
 .about .container .about-us p:not(:nth-child(4)) {
     font-size: 15px;
     font-weight: 300;
@@ -998,10 +1058,20 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
+@media (max-width: 767px){
+    .about .container .about-us p:not(:nth-child(4)) {
+        font-size: 10px;
+    }
+}
 .about .container .about-us p:nth-child(4) {
     font-size: 20px;
     color: var(--selection-color);
     padding-bottom: 20px;
+}
+@media (max-width: 767px){
+    .about .container .about-us p:nth-child(4) {
+        font-size: 15px;
+    }
 } 
 .about .container .about-us a {
     font-size: 20px;
@@ -1010,6 +1080,11 @@ a{
     border-radius: 20px; 
     color: rgba(255, 255, 255, 0.658);
 }
+@media (max-width: 767px){
+    .about .container .about-us a {
+        font-size: 10px;
+    }
+} 
 .about .container .about-us a:hover {
     background-color: var(--selection-color);
     transform: scale(1.1);
@@ -1085,6 +1160,20 @@ a{
     font-size: 20px;
     letter-spacing: 1px;
 }
+@media(max-width: 767px){
+    .contact .contact-us h3 {
+        font-size: 30px;
+    }
+    .contact .contact-us h3 i {
+        font-size: 25px;
+    }
+    .contact .contact-us p {
+        font-size: 10px;
+    }
+    .contact .contact-us input::placeholder {
+        font-size: 15px;
+    }
+}
 .contact .contact-us input:hover,
 .contact .contact-us input:hover::placeholder {
     color: var(--selection-color);
@@ -1106,6 +1195,9 @@ a{
 @media (max-width: 767px){
     .contact .contact-us a {
         font-size: 10px;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-top: 25px;
         overflow: hidden;
     }
 }
@@ -1130,6 +1222,21 @@ a{
 }
 .contact .container .icons i p {
     font-size: 15px;
+}
+@media(max-width: 767px){
+    .contact .container .icons i {
+        padding-bottom: 2px;
+    }
+    .contact .container .icons i h1 {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .contact .container .icons i p {
+        font-size: 10px;
+    }
+    .contact .container .icons i {
+        font-size: 15px;
+    }
 }
 /* end contact*/
 /* start footer */
@@ -1166,7 +1273,7 @@ a{
 @media(max-width: 767px){
     .footer .container{
         flex-wrap: nowrap;
-        margin-top: 30px;
+        margin-bottom: 5px;
     }
 }
 .footer .container img {
@@ -1184,8 +1291,8 @@ a{
 }
 @media(max-width: 767px){
     .footer .container img {
-        width: 80px;
-        height: 80px;
+        width: 55px;
+        height: 55px;
     }
 }
 .footer .container h2 {
@@ -1205,12 +1312,11 @@ a{
 }
 @media(max-width: 767px){
     .footer p{
-        font-size: 15px;
+        font-size: 10px;
     }
     .footer .container h2{
-        font-size: 25px;
+        font-size: 15px;
         padding-top: 10px;
-        margin-bottom: 0;
     }
 }
 /* end footer */
