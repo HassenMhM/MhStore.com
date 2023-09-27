@@ -160,7 +160,7 @@ a{
 }
 @media (max-width: 1650px){
     .nav-bar{
-        
+        display: none;
     }
 }
 .nav-bar h2 {
