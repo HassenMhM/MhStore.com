@@ -1,7 +1,7 @@
 [
     {
         "name":"T800 Ultra",
-        "imgPath":"./images/ac01.jpeg",
+        "imgPath":"images/ac01.jpeg",
         "price":"2 800 Da",
         "brand":"Unknown"
     },
