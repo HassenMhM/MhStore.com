@@ -1,54 +1,54 @@
 [
     {
-        "imgPath":"/images/brand01.png",
+        "imgPath":"images/brand01.png",
         "brand":"Samsung"
     },
     {
-        "imgPath":"/images/brand02.png",
+        "imgPath":"images/brand02.png",
         "brand":"Apple"
     },
     {
-        "imgPath":"/images/brand03.png",
+        "imgPath":"images/brand03.png",
         "brand":"Huawei"
     },
     {
-        "imgPath":"/images/brand04.png",
+        "imgPath":"images/brand04.png",
         "brand":"Oppo"
     },
     {
-        "imgPath":"/images/brand05.png",
+        "imgPath":"images/brand05.png",
         "brand":"Google"
     },
     {
-        "imgPath":"/images/brand06.png",
+        "imgPath":"images/brand06.png",
         "brand":"Realme"
     },
     {
-        "imgPath":"/images/brand07.png",
+        "imgPath":"images/brand07.png",
         "brand":"Xioami"
     },
     {
-        "imgPath":"/images/brand08.png",
+        "imgPath":"images/brand08.png",
         "brand":"OnePlus"
     },
     {
-        "imgPath":"/images/brand09.png",
+        "imgPath":"images/brand09.png",
         "brand":"Poco"
     },
     {
-        "imgPath":"/images/brand10.png",
+        "imgPath":"images/brand10.png",
         "brand":"Vivo"
     },
     {
-        "imgPath":"/images/brand11.png",
+        "imgPath":"images/brand11.png",
         "brand":"Honor"
     },
     {
-        "imgPath":"/images/brand12.png",
+        "imgPath":"images/brand12.png",
         "brand":"Infinix"
     },
     {
-        "imgPath":"/images/brand13.png",
+        "imgPath":"images/brand13.png",
         "brand":"Asus"
     }
 ]
