@@ -278,7 +278,7 @@ a{
 }
 @media (max-width: 767px){
     .header{
-        height: 50px;
+        height: 40px;
     }
 }
 .header .container {
@@ -308,8 +308,9 @@ a{
 }
 @media (max-width: 767px){
     .header .container ul li {
-        padding: 0 3px;
-        font-size: 8px;
+        padding: 0 2px;
+        font-size: 5px;
+        margin-top: 5px;
         letter-spacing: 1px;
     }
 }
@@ -356,7 +357,7 @@ a{
 .header .container ul li:first-child:hover i .nav-bar {
     display: block;
     top: 70px;
-    background-color: #0d6e70b0;
+    background-color: var(--main-color);
     padding-bottom: 30px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
